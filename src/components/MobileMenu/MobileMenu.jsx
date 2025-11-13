@@ -1,12 +1,12 @@
-import React from 'react';
-import styled from 'styled-components';
-import * as Dialog from '@radix-ui/react-dialog';
+import React from "react";
+import styled from "styled-components";
+import * as Dialog from "@radix-ui/react-dialog";
 
-import { QUERIES, WEIGHTS } from '../../constants';
+import { QUERIES, WEIGHTS } from "../../constants";
 
-import UnstyledButton from '../UnstyledButton';
-import Icon from '../Icon';
-import VisuallyHidden from '../VisuallyHidden';
+import UnstyledButton from "../UnstyledButton";
+import Icon from "../Icon";
+import VisuallyHidden from "../VisuallyHidden";
 
 const MobileMenu = ({ isOpen, onDismiss }) => {
   return (
@@ -46,6 +46,7 @@ const Overlay = styled(Dialog.Overlay)`
   position: fixed;
   inset: 0;
   background: var(--color-backdrop);
+
 `;
 
 const Content = styled(Dialog.Content)`
